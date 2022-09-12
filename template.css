@@ -1,0 +1,154 @@
+body {
+	grid-template-columns: ;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 300;
+		-webkit-print-color-adjust: exact; 
+
+}
+
+@media print {
+  @page { margin: 0; }
+  body { margin: 1cm; }
+}
+
+#logo {
+	width: 250px;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 5em 5em;
+	background-color: rgb(192, 221, 0);
+	text-align: center;
+	color: whitesmoke;
+}
+
+.fase {
+	padding-left: 15px;
+		padding-top: 0.5em;
+		border-top: solid 	rgb(255, 236, 50) 3px;
+		
+
+}
+
+.sesiones {
+	padding-top: 1em;
+}
+.descripcion {
+	padding-left: 15px;
+		padding-top: 0.5em;
+		font-weight: 300;
+
+}
+
+.container2 {
+	display: grid;
+	grid-template-columns: 40% 3px 15px 30% 35px 10px 22%;
+	margin-top: 0em	;
+}
+
+.dot {
+	background-color: rgb(255, 236, 50);
+	text-align: center;
+	border-radius: 15px;
+	margin-top: 0.4em;
+	margin-bottom: 135px;
+	color: rgba(0, 0, 0, 0);
+	padding-right: 30px;
+	margin-left: -15px;
+
+
+}
+
+.line {
+	background-color: rgba(78, 78, 78, 0.4);
+text-align: center;
+color: rgba(0, 0, 0, 0);
+}
+.fase1c {
+	background-color: rgb(255, 236, 50);
+	color: whitesmoke;
+border-radius: 1em 1em 1em 1em;
+margin-bottom: 5em;
+text-align: center;
+}
+.fase1r {
+	background-color: rgb(255, 236, 50);
+	color: rgba(0, 0, 0, 0);
+	margin-left: -10px;
+}
+
+.next {
+	margin-top: -40px;
+}
+
+	.orange {
+		background-color: rgb(255, 140, 0);
+	}
+
+
+.orangeline {
+border-top: solid 	rgb(255, 140, 0) 3px;
+}
+
+.red {
+	background-color: rgb(217, 26, 26);
+
+}
+
+.redline {
+border-top: solid 	rgb(217, 26, 26) 3px;
+}
+
+.green {
+	background-color: rgb(128, 199, 24);
+}
+
+.greenline {
+border-top: solid 	rgb(128, 199, 24) 3px;
+}
+
+
+.purple {
+	background-color: rgb(173, 42, 167);
+}
+
+.purpleline {
+border-top: solid 	rgb(173, 42, 167) 3px;
+}
+
+.blue {
+	background-color: rgb(30, 85, 173);
+}
+
+.blueline {
+border-top: solid 	rgb(30, 85, 173) 3px;
+}
+
+.brown {
+	background-color: rgb(114, 53, 50);
+}
+
+.brownline {
+border-top: solid 	rgb(114, 53, 50) 3px;
+}
+
+.button1 {
+	padding-right: 55px;
+	margin-left: 15px;
+
+}
+
+
+
+.navegate {
+	display: flex;
+}
+
+h6 {
+	margin:  0px 80px 0px 10px;
+}
